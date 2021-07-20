@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GuideToSlotMachine</string>
+
+    <string name="slot_intro">
+        "Welcome to the slot machines section of GamblingSites.com. Our goal with this guide to slot machines is to provide the most comprehensive resource for people interested in slots anywhere on the Internet."
+        "This page covers the main topics in broad strokes. Most of the sections of this page include links to subsections which tackle specific topics in more detail."
+    </string>
+
+
+    <integer-array name="array_slot_list">
+<!--        <item>@drawable/aadetails</item>-->
+<!--        <item>@drawable/abdetails</item>-->
+<!--        <item>@drawable/acdetails</item>-->
+<!--        <item>@drawable/addetails</item>-->
+<!--        <item>@drawable/aedetails</item>-->
+<!--        <item>@drawable/afdetails</item>-->
+<!--        <item>@drawable/agdetails</item>-->
+<!--        <item>@drawable/ahdetails</item>-->
+    </integer-array>
+
+    <string-array name="array_description_list">
+        <item>https://i.ibb.co/zXss1VZ/6.png</item>
+        <item>https://i.ibb.co/BsBM1qJ/5.png</item>
+        <item>https://i.ibb.co/bm7QhNs/4.png</item>
+        <item>https://i.ibb.co/0ZgPGZW/3.png</item>
+        <item>https://i.ibb.co/hHsqBMH/2.png</item>
+        <item>https://i.ibb.co/zm3c8q5/1.png</item>
+    </string-array>
+
+</resources>
