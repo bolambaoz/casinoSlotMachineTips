@@ -23,6 +23,12 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <style name="CustomActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
 <!--    <style name="Theme.GuideToSlotMachine" parent="Theme.MaterialComponents.DayNight.DarkActionBar">-->
 <!--        &lt;!&ndash; Primary brand color. &ndash;&gt;-->
 <!--        <item name="colorPrimary">@color/purple_200</item>-->

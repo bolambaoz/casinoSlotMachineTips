@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:titleTextColor="@color/white"
+    android:layout_alignParentTop="true"
+    app:layout_scrollFlags="scroll|enterAlways"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/img_back_arrow_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        />
+
+    <ImageView
+        android:id="@+id/img_detail_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_more_vert_32"
+        android:layout_gravity="end"
+        android:layout_marginRight="12dp" />
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--      -->
+
+<!--    </RelativeLayout>-->
+</androidx.appcompat.widget.Toolbar>
