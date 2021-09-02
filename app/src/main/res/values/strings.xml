@@ -2,20 +2,20 @@
     <string name="app_name">GuideToSlotMachine</string>
 
     <string name="slot_intro">
-        "Welcome to the slot machines section of GamblingSites.com. Our goal with this guide to slot machines is to provide the most comprehensive resource for people interested in slots anywhere on the Internet."
-        "This page covers the main topics in broad strokes. Most of the sections of this page include links to subsections which tackle specific topics in more detail."
+        Welcome to the slot machines!!! Our goal with this guide to slot machines is to provide the most comprehensive resource for people interested in slots anywhere on the Internet.
     </string>
+    <string name="dsfjosdfjosdifjsodifjsdoifj">dsfjosdfjosdifjsodifjsdoifj</string>
 
 
     <integer-array name="array_slot_list">
-<!--        <item>@drawable/aadetails</item>-->
-<!--        <item>@drawable/abdetails</item>-->
-<!--        <item>@drawable/acdetails</item>-->
-<!--        <item>@drawable/addetails</item>-->
-<!--        <item>@drawable/aedetails</item>-->
-<!--        <item>@drawable/afdetails</item>-->
-<!--        <item>@drawable/agdetails</item>-->
-<!--        <item>@drawable/ahdetails</item>-->
+        <!--        <item>@drawable/aadetails</item>-->
+        <!--        <item>@drawable/abdetails</item>-->
+        <!--        <item>@drawable/acdetails</item>-->
+        <!--        <item>@drawable/addetails</item>-->
+        <!--        <item>@drawable/aedetails</item>-->
+        <!--        <item>@drawable/afdetails</item>-->
+        <!--        <item>@drawable/agdetails</item>-->
+        <!--        <item>@drawable/ahdetails</item>-->
     </integer-array>
 
     <string-array name="array_description_list">
@@ -25,6 +25,188 @@
         <item>https://i.ibb.co/0ZgPGZW/3.png</item>
         <item>https://i.ibb.co/hHsqBMH/2.png</item>
         <item>https://i.ibb.co/zm3c8q5/1.png</item>
+    </string-array>
+
+    <string-array name="array_text_title">
+        <item>What Are Slot Machines and How Do They Work?</item>
+        <item>Online Slots and Comparisons to Land Based Slots</item>
+        <item>Free Slot Machines</item>
+        <item>Real Money Slot Machines</item>
+        <item>Slot Machines Strategy</item>
+        <item>Frequently Asked Questions</item>
+    </string-array>
+
+    <string-array name="array_text_description">
+        <item>A slot machine is a gambling game with spinning reels. Those reels have symbols on them, which land randomly after you place a bet and spin the reels. If these symbols line up, you win prizes based on which symbols fall on that “payline”.
+
+These games have been around since the late 19th century, but they’ve done nothing but grow in popularity since then. They were originally mechanical devices that relied on springs and gears to spin the reels. Modern slot machines use a computer program called a random number generator to determine which symbols land where.
+
+A random number generator is a computer program that cycles through thousands of numbers per second. When you hit the spin button, the program stops wherever it’s at. These numbers correspond to stops and symbols on the reels.
+
+To learn more about common myths you might run into, you can refer to our guide to common slot machine myths.
+
+        Early Slot Machines
+Early slot machines had math that was easily understood. You might have 3 reels with 10 symbols on each of them. The odds of getting any particular symbol were equal—1/10.
+
+If you wanted to calculate the odds of getting a particular combination of symbols on a line, you just multiplied 1/10 X 1/10 X 1/10, for a result of 1/1000.
+
+You could then compare the prize for lining those symbols up with the chances of hitting the combination to figure out the payback percentage for the machine. If a casino offered a 998 to 1 payout on a bet that had a 1/1000 chance of winning, that casino would have a small edge. Over time, they’d show a profit.
+
+Modern Slot Machines
+Modern slots are harder to calculate, because the symbols and reels are programmed into the computer. This makes the games more flexible in a lot of ways. They’re not limited by the size of the reels, for example.
+
+Vintage mechanical slot machines could only have so many symbols on a reel before the game became literally and physically too large to be practical. But a game that’s powered by a computer might have 20 symbols per reel.
+
+The other advantage for manufacturers is that they can adjust the odds of a particular symbol coming up. Some symbols might turn up once every 10 spins; others might only come up once every 20 or 30 spins. This enables the manufacturers and the casinos to offer larger jackpots and still maintain their profitability.
+
+Slots games are available in multiple slot themes and have multiple slot features available. You can play for pennies, nickels, dimes, quarters, and dollars. You can play games with 5 reels and 25 paylines. Scatter symbols, wild symbols, bonus games, and progressive jackpots all add spice and variety to these games.
+
+There are even 3D slot games that bring the reels to life with advanced graphics, and branded slots based on popular culture.
+
+It’s little wonder that an estimated 70% to 80% of most United States casinos’ revenue stems directly from these slot machines.
+
+You can find a complete history of slot machines on this page.
+
+Below you can also visit our page that has our complete list of slot games and free playable versions of those games as well.
+        </item>
+
+        <item>
+            Online slot machines work just like their land-based counterparts. All the action is handled virtually, though, through your computer and the Internet. But the random number generators work exactly the same.
+
+In fact, most casino software providers make online slot machines that rival their land-based counterparts in terms of graphics, gameplay, and sound effects. You might find fewer licensed properties at some online casinos, but you’ll also find an astounding variety of original games to choose from.
+
+Online slots offer 2 distinct advantages over their land-based counterparts, too:
+
+-Free play options
+-Higher payback percentages
+
+We’ve written more about free play options in the next section of this guide, subtitled “free slot machines”.
+
+We discuss the higher payback percentages and the reasons for these in the section after that, subtitled “real money slot machines”.
+
+So why should you play online slots?
+
+That’s a great question, and we have the answer here where we talk about the advantages to playing online.
+        </item>
+
+        <item>
+            Free slots are a relatively new development. When the only place you could play was a land-based casino, you weren’t able to play free slot machine games. What would be the point in a casino offering such a thing?
+
+But online casinos don’t have to worry about how much money they make per square foot in the same way that land-based casinos do. So they’re able to allow players to try their games for free in the hopes that they’ll like them and play for actual cash. You should take advantage of this, but only up to a point.
+
+Yes, you should definitely try the software and the games before making a deposit to make sure that you like them. But don’t be one of those types who sit around playing a pointless game.
+           Why are free slots pointless?
+The whole point of playing them is to risk money in order to win money. If you take the money out of the equation, you’re left with an activity that basically consists of watching a bunch of pretty lights on a screen and listening to some pretty sounds. If that’s what you’re after, a movie or a television show can offer the same thing, along with an intricate plot and interesting characters. On the other hand, if you get some kind of thrill out of playing these free games, pay no attention to us or our advice. When it comes to gambling of any kind, you should do what you find most entertaining. You’ll find lots of well-meaning advice on the Internet which is meant to help you maximize your odds, but at the end of the day, it’s your money and your entertainment. Do what you want to do.
+            Free Spin Bonuses
+A big thing that a lot of new and experienced gamblers look for when it comes to playing slots online are the free spins bonuses that are offered by many casinos.
+
+These bonuses are available after you sign up with one of these casinos. They give you a certain number of free spins that you can use on their slot machines as a bonus for signing up with them.
+
+These free spins are very appealing and can be a lot of fun because you don’t have to risk any of your own money to start with to feel like you are winning.
+
+Now, you will need to reach certain rollover requirements if you ever intend to withdraw any of the winnings but it’s a great way to start off and gauge what you want to do going forward without risking your own money.
+
+        </item>
+
+        <item>
+            Of course, we think that the appropriate use of a slot machine game is to put some money into action. The real money slot machines available online are, in our opinion, as good as—if not superior to—those that you’ll find in a land-based casino. These Internet games have state of the art graphics and sound effects.
+
+But best of all, if you’re playing for actual cash online, you’re experiencing some of the best payback percentages in the industry.
+
+As we’ve pointed out before, the expenses in running an online casino are significantly lower than those of running a traditional land-based casino. The gambling companies can use these savings to offer their customers a better gamble in the form of a better payback percentage.
+
+If you’re playing from the United States, you have a limited number of choices when it comes to real money casino games. That’s because the USA has made it illegal for companies to offer real gambling to customers on the Internet. But in most states, it’s not illegal to play these games for money—it’s just illegal to offer these games for money.
+
+As far as we know, NO ONE has ever been prosecuted in the United States for playing an online slot machine for money. In fact, only two people that we know of have faced any kind of legal action based on gambling on the Internet, and they were both sports bettors.
+
+Gamblers from other countries have more options. Casinos on the Internet are falling all over themselves to sign up new players from Australia, for example, where gambling is much more popular than in the United States.
+
+UK gamblers tend to prefer sports betting and table games to slot machines, but they still play. Australian players call these games “real money pokies”, while UK players call them “real money fruit machines”.
+
+No matter what they’re called, these games work the same.
+        </item>
+
+        <item>
+            No amount of “slot machine strategy” can change the odds of the game. It’s a negative expectation game, and a lot of what passes for strategies on the Internet are just plain superstition. But you can make some decisions about which games to play.Here’s a general rule of thumb about slots:
+
+The more bells and whistles it has, the lower the payback percentage is.
+For example, if a game has a progressive jackpot, it’s going to have a lower payback percentage than a game with a flat top jackpot. That’s because the ever-increasing progressive jackpot has to be “fed”, and the money that feeds it comes as a tiny percentage of each bet.
+
+Any kind of bonus feature or wild symbol also gets paid for in the form of having a lower payback percentage. Bigger, licensed games cost more to make physically. The casinos and the manufacturers are going to want to recoup their investment on those costs.
+
+So which slots games should you play?
+In a sense, it doesn’t matter. Even if a game has a better payback percentage, it’s going to make you go broke in the long run if you keep playing it. The difference is how long it will take. And once short term variance comes into play, it’s possible that your money will last longer on the game with the lower payback percentage. But the bottom line is that traditional 3 reel slot machine games with a flat top jackpot have higher payback percentages. You should also avoid slots in airports and bars. Stick with the slots games in the active casinos. They’re competing harder for their customers’ business. People in bars and airports have fewer options to choose from, so the casinos don’t try as hard to offer loose slot machines in order to entice customers. Finally, ignore any advice that tells you to look for specific symbols in certain patterns. The random number generators on these games are unaffected by such decorations.
+
+        </item>
+
+        <item>
+            There are a lot of questions we see asked very regularly about slot machines. We’ve listed answers to the most common of them below.
+
+How do slots work?
+They used to be mechanical games with spinning reels with symbols printed on each reel. But they’re now powered by computer programs called random number generators. You put your money in, spin the reels, and hope for the best.
+
+The odds are programmed in such a way that the house has an edge in the long run. This means that you might be able to win in the short run, because the game is random. But as you approach the long run, you can expect to get closer to seeing the mathematical expectation.
+
+How do you win at slots?
+Slots are completely random. So don’t expect to find some kind of winning zig-zag strategy. Don’t worry about where the games are located on the floor. And please don’t worry about whether you have a better chance of winning by using the lever instead of the spin button.
+
+All of those ideas are superstitions and/or myths. You can safely ignore them. The best advice we can give you for winning at slots is to choose games which seem on the simpler, boring side, and play for higher stakes than you probably think you should.
+
+Also, avoid slots with notoriously low payback percentages, like those found in airports and bars.
+
+Are online slots rigged?
+All slot machines are rigged in a sense, because the odds of winning and the odds of the payouts are never commensurate. The casino always has an edge.
+
+But they’re not rigged in the way that you think. Yes, you do have a chance of winning at slots online. No, you’re not going to lose on every spin. And no, the casino doesn’t have the game programmed to compensate for your last winning or losing streak.
+
+What is an annuity?
+You’ll usually hear the term “annuity” discussed when talking about lottery winners or when talking about retirement instruments. It’s just a fancy word for a financial instrument that pays outa certain amount of money over a period of time. It comes up when talking about slot machines because of the size of progressive jackpots.
+
+Here’s how a common annuity might work.
+
+You win $1 million on a progressive slot machine. You have the option to take out a cash payment of $750,000, or you can choose an annuity of $25,000 a year for the next 40 years.
+
+Even though you get a million dollars with the annuity option, the cash payment is the better option. That’s because of the time value of money. Over 40 years, with wise investing and budgeting, $750,000 will be worth more than $1 million.
+
+What is hit frequency?
+Hit frequency refers to how often a slot machine hits a winning combination. The concept is related to the house edge and the payback percentage, but it’s not the same thing.
+
+A slot machine that hits often but only for small wins might have a lower payback percentage than a slot machine that hits only seldom but has higher average wins.
+
+Slot machine designers and manufacturers have enormous amounts of data informing their decisions about hit frequency and payback percentages. They know what hit frequency combined with whatpayback percentage will maximize a player’s time spent on machine, which is the #1 factor determining how profitable a particular game is.
+
+How do wild symbols work on slots?
+A wild symbol on a slot machine works just like a wild card in a game of poker. It replaces and stands in for a symbol you don’t have that you need in order to create a winning combination.
+
+Some wild symbols stack on top of one another, increasing the amount you’re getting paid off.
+
+How do scatter symbols work on slot machines?
+Scatter symbols are slot machine symbols that create payoffs regardless of what payline they’re on. If you have a certain number of those symbols anywhere on the screen, you get paid.
+
+Scatter symbols are a common feature on modern video slots. In some games, like the new 243 ways slots, every symbol in the game can be considered a scatter symbol.
+
+We also have a page dedicated to defining all of the different terms and phrases you will want to learn when dealing with slot machines.
+
+        </item>
+
+    </string-array>
+
+    <string-array name="array_image_main">
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/1.png</item>
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/2.png</item>
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/3.png</item>
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/4.png</item>
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/5.png</item>
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/6.png</item>
+    </string-array>
+
+    <string-array name="array_image_small">
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/A.png</item>
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/B.png</item>
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/C.png</item>
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/D.png</item>
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/E.png</item>
+        <item>https://96group.s3.ap-southeast-1.amazonaws.com/F.png</item>
     </string-array>
 
 </resources>

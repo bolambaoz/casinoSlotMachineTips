@@ -22,13 +22,14 @@
                 android:id="@+id/relativeId"
                 android:layout_marginBottom="12dp"
                 android:layout_width="match_parent"
-                android:layout_height="220dp">
+                android:layout_height="240dp">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="220dp"
+                    android:layout_height="match_parent"
                     android:src="@drawable/slots_listbackground"
                     android:scaleType="fitXY"
-                    />
+                    android:contentDescription="TODO" />
+
                 <ImageView
                     android:id="@+id/imageView1"
                     android:layout_width="match_parent"
@@ -37,16 +38,39 @@
                     android:src="@drawable/slots"
                     />
 
-                <TextView
+                <com.ms.square.android.expandabletextview.ExpandableTextView
+                    android:id="@+id/expand_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"
                     android:background="@drawable/text_background"
-                    android:fontFamily="@font/poppins"
-                    android:padding="4dp"
-                    android:text="@string/slot_intro"
-                    android:textColor="#A3A3A3"
-                    android:textSize="12dp" />
+                    app:animDuration="200"
+                    app:maxCollapsedLines="2">
+
+                    <TextView
+                        android:id="@id/expandable_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/white"
+                        android:fontFamily="sans-serif"
+                        android:textSize="16sp"
+                        />
+
+                    <ImageButton
+                        android:id="@id/expand_collapse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:background="@android:color/transparent"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="16dp"/>
+
+                </com.ms.square.android.expandabletextview.ExpandableTextView>
+
             </RelativeLayout>
 
             <include
@@ -54,9 +78,10 @@
                 />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="60dp"
-                android:src="@drawable/slots"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/try_your_luck"
                 />
 
             <include

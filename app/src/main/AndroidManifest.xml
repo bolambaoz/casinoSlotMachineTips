@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ninetysixgroup.guidetoslotmachine">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,13 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GuideToSlotMachine">
+        <activity android:name=".SlotContent"></activity>
         <activity
-            android:screenOrientation="portrait"
-            android:name=".SlotListScreen"></activity>
+            android:name=".SlotListScreen"
+            android:screenOrientation="portrait" />
         <activity
+            android:name=".LoadingScreen"
             android:screenOrientation="portrait"
-            android:theme="@style/LoadingTheme"
-            android:name=".LoadingScreen">
+            android:theme="@style/LoadingTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +27,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:screenOrientation="portrait"
-            android:name=".MainActivity" />
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"
