@@ -63,7 +63,7 @@ class SlotAdapter (context: Context, list: ArrayList<SlotModel>,
             Glide.with(context).load(item.image).into(holder.image)
             holder.textShortDescription.text = item.description
             holder.btnReadMore.setOnClickListener{
-                listener.onClicked(context,item.image, item.description)
+                listener.onClicked(context,item.image, item.description, item.name)
             }
 //            holder.cardView.setOnClickListener{
 //                listener.onClicked(context,item.image, item.description)
@@ -74,8 +74,7 @@ class SlotAdapter (context: Context, list: ArrayList<SlotModel>,
         if(holder is View2ViewHolder){
             Glide.with(context).load(item.image).into(holder.image)
             holder.cardView.setOnClickListener{
-                listener.onClicked(context, item.image, item.description)
-                Toast.makeText(context, "hellooooo.......", Toast.LENGTH_SHORT).show()
+                listener.onClickedImage(context,item.name)
             }
         }
     }
@@ -85,7 +84,7 @@ class SlotAdapter (context: Context, list: ArrayList<SlotModel>,
     }
 
     interface onItemClicked {
-        fun onClicked(context: Context, image: String, imageDetail: String)
+        fun onClicked(context: Context, image: String, imageDetail: String, title: String)
         fun onClickedImage(context: Context, url: String)
     }
 

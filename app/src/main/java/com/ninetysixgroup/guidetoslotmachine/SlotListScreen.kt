@@ -5,8 +5,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.ninetysixgroup.guidetoslotmachine.viewmodel.SlotListScreenViewModel
 import kotlinx.android.synthetic.main.activity_slot_list_screen.*
 import kotlinx.android.synthetic.main.recycler2_home.*
 import kotlinx.android.synthetic.main.recycler_home.*
@@ -20,6 +22,7 @@ class SlotListScreen : AppCompatActivity(), SlotAdapter.onItemClicked {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_slot_list_screen)
 
+        initViewModel()
 //        setupDialog()
 //        popupAds()
         // first recyclerview decleration
@@ -86,14 +89,35 @@ class SlotListScreen : AppCompatActivity(), SlotAdapter.onItemClicked {
         return list
     }
 
-    override fun onClicked(context: Context,image: String, imageDetail: String) {
+    override fun onClicked(context: Context,image: String, imageDetail: String, title: String) {
 
-        val intent = Intent(this, SlotContent::class.java)
+        val intent = Intent(this, SlotContent::class.java).apply {
+            putExtra("detail", "${imageDetail}")
+            putExtra("image", image)
+            putExtra("title", title)
+        }
+
         startActivity(intent)
 
     }
 
     override fun onClickedImage(context: Context, url: String) {
         Toast.makeText(this, "helloooo....", Toast.LENGTH_SHORT).show()
+    }
+
+    // instanve of viewmodel
+
+    private fun initViewModel() {
+        val viewModel:SlotListScreenViewModel = ViewModelProvider(this).get(SlotListScreenViewModel::class.java)
+        viewModel.getLiveDataObserver().observe(this,{
+            if(it != null){
+//                recyclerAdapter.setCountryList(it)
+//                recyclerAdapter.notifyDataSetChanged()
+                Toast.makeText(this, it.toString(), Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "Error in getting list", Toast.LENGTH_SHORT).show()
+            }
+        })
+        viewModel.makeAPICall()
     }
 }
