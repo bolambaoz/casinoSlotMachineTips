@@ -2,7 +2,6 @@ package com.ninetysixgroup.guidetoslotmachine.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.ninetysixgroup.guidetoslotmachine.model.ApiData
 import com.ninetysixgroup.guidetoslotmachine.model.ApiModel
 import com.ninetysixgroup.guidetoslotmachine.retrofit.RetroInstance
 import com.ninetysixgroup.guidetoslotmachine.retrofit.RetroServiceInterface

@@ -1,15 +1,21 @@
 package com.ninetysixgroup.guidetoslotmachine
 
+import android.app.Dialog
 import android.content.Context
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
+import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ninetysixgroup.guidetoslotmachine.viewmodel.SlotListScreenViewModel
 import kotlinx.android.synthetic.main.activity_slot_list_screen.*
+import kotlinx.android.synthetic.main.popup_ads_dialog.*
 import kotlinx.android.synthetic.main.recycler2_home.*
 import kotlinx.android.synthetic.main.recycler_home.*
 
@@ -23,8 +29,7 @@ class SlotListScreen : AppCompatActivity(), SlotAdapter.onItemClicked {
         setContentView(R.layout.activity_slot_list_screen)
 
         initViewModel()
-//        setupDialog()
-//        popupAds()
+
         // first recyclerview decleration
         expand_text_view.setText(resources.getString(R.string.slot_intro))
 
@@ -52,12 +57,10 @@ class SlotListScreen : AppCompatActivity(), SlotAdapter.onItemClicked {
     }
 
     private fun getSlotList(): ArrayList<SlotModel> {
-//        val homeimages = resources.obtainTypedArray(R.array.array_image)
         val title = resources.getStringArray(R.array.array_text_title)
         val content = resources.getStringArray(R.array.array_description_list)
         val description = resources.getStringArray(R.array.array_text_description)
         val images = resources.getStringArray(R.array.array_image_main)
-//        val contentDetails = resources.obtainTypedArray(R.array.array_image_detailsmain)
         val list = ArrayList<SlotModel>()
 
 
@@ -102,7 +105,14 @@ class SlotListScreen : AppCompatActivity(), SlotAdapter.onItemClicked {
     }
 
     override fun onClickedImage(context: Context, url: String) {
-        Toast.makeText(this, "helloooo....", Toast.LENGTH_SHORT).show()
+        toThreeLink()
+    }
+
+    private fun toThreeLink(){
+        val url = "https://asia3we.com/"
+        val openURL = Intent(Intent.ACTION_VIEW)
+        openURL.data = Uri.parse(url)
+        startActivity(openURL)
     }
 
     // instanve of viewmodel
@@ -110,14 +120,37 @@ class SlotListScreen : AppCompatActivity(), SlotAdapter.onItemClicked {
     private fun initViewModel() {
         val viewModel:SlotListScreenViewModel = ViewModelProvider(this).get(SlotListScreenViewModel::class.java)
         viewModel.getLiveDataObserver().observe(this,{
-            if(it != null){
+
+            if(it[0].isAllow == true){
 //                recyclerAdapter.setCountryList(it)
 //                recyclerAdapter.notifyDataSetChanged()
-                Toast.makeText(this, it.toString(), Toast.LENGTH_SHORT).show()
+                popupAds()
             } else {
                 Toast.makeText(this, "Error in getting list", Toast.LENGTH_SHORT).show()
             }
         })
+
         viewModel.makeAPICall()
     }
+
+    private fun popupAds(){
+
+        val dialog = Dialog(this)
+        dialog.setContentView(R.layout.popup_ads_dialog)
+        dialog.setCancelable(false)
+//        dialog.window?.setBackgroundDrawableResource(R.drawable.dialog_background)
+//        dialog.background.background = resources.getDrawable(imgs.getResourceId(random.nextInt(3), -1))
+//        dialog.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+
+        dialog.img_exit.setOnClickListener{
+            dialog.dismiss()
+        }
+
+        dialog.btn_clickhere.setOnClickListener{
+            toThreeLink()
+        }
+
+        dialog.show();
+    }
+
 }
